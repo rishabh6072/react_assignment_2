@@ -24,6 +24,7 @@ class App extends Component {
   deleteListHandler = () => {
     this.setState({
       charArray: [],
+      length: 0,
       input: ''
     });
   }
